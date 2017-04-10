@@ -1,20 +1,17 @@
 body{
-background:rgb(225,225,225);
+  padding-top:50px;/*esto lo sumo por el menú */
+  background:rgba(225,225,225,1);
 }
-
-header,section,aside,footer{
-}
-
 footer{
   border-top:1px solid #aaa;
   padding-top:1em;
   margin-top:2em;
   margin-bottom:3em;
   font-size:90%;
-  letter-spacing:0.01em;
+  letter-spacing:0.01em;}
+header,section,aside,footer{
 }
-
 @media screen and (max-width:768px){
-  header,section,aside,footer{
+  header, section, aside, footer{}
+  
   }
-}
